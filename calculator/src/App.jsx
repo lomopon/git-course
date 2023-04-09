@@ -7,9 +7,11 @@ import MyButton from './component/UI/Button/MyButton'
 function App() {
   const [count, setCount] = useState(0)
 
+  const name = '2';
+
   return (
     <div className="App">
-      <MyButton>321</MyButton>
+      <MyButton name={name}>2</MyButton>
     </div>
   )
 }
