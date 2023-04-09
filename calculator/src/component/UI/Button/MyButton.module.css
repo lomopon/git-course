@@ -1,0 +1,12 @@
+.ButtonNumbers {
+    color: #29A8FF;
+    border-radius: 8px;
+    
+    background-color: #303136;
+    padding: 15px 30px;
+    font-size: 35px;
+}
+.ButtonNumbers:hover {
+    color: #6bc0f8;
+    background-color: #393a41;
+}
