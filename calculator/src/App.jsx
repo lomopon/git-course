@@ -7,14 +7,16 @@ import MyButton from './component/UI/Button/MyButton'
 function App() {
   const [count, setCount] = useState(0)
 
-  const myValue = '1';
+  const myValue = '2';
 
   return (
     <div className="App">
-      <MyButton>1</MyButton>
+      <MyButton myValue = '1' >1</MyButton>
+      <MyButton myValue = '2' >2</MyButton>
+      <MyButton myValue = '3' >3</MyButton>
+      <MyButton myValue = '4' >4</MyButton>
     </div>
   )
 }
 
 export default App
-export const myValue = '1';

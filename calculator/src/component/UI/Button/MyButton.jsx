@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import classes from './MyButton.module.css'
-import App, {myValue} from "../../../App";
 
-function MyButton ({children, ...posts}) {
+
+function MyButton ({children, ...props}) {
     
     const [buttonClicked, setButtonClicked] = useState(false);
 
   useEffect(() => {
     
     function handleKeyDown(event) {
-      if (event.key === myValue.toString()) {
-        console.log('нажалась')
+      if (event.key === props.myValue.toString()) {
+        console.log('нажалась'+ props.myValue.toString())
         setButtonClicked(true);
       }
     }
