@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import classes from './MyButton.module.css'
-import App from "../../../App";
+import App, {myValue} from "../../../App";
 
 function MyButton ({children, ...posts}) {
     
@@ -8,8 +8,8 @@ function MyButton ({children, ...posts}) {
 
   useEffect(() => {
     
-    function handleKeyDown(event,name) {
-      if (event.key === {name}) {
+    function handleKeyDown(event) {
+      if (event.key === myValue.toString()) {
         console.log('нажалась')
         setButtonClicked(true);
       }
