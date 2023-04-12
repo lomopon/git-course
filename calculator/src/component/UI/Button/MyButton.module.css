@@ -1,12 +1,84 @@
 .ButtonNumbers {
     color: #29A8FF;
-    border-radius: 8px;
-    margin: 10px;
+    border-radius: 15px;
+    margin: 5px;
     background-color: #303136;
-    padding: 15px 30px;
+    padding: 18px 30px;
     font-size: 35px;
 }
 .ButtonNumbers:hover {
     color: #6bc0f8;
     background-color: #393a41;
+}
+.Dot {
+    color: #29A8FF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #303136;
+    padding: 18px 35px;
+    font-size: 35px;
+}
+.Dot:hover {
+    color: #6bc0f8;
+    background-color: #393a41;
+}
+.Signs {
+    color: #339DFF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #046ac9;
+    padding: 18px 34px;
+    font-size: 35px;
+}
+.Signs:hover {
+    color: #6bc0f8;
+    background-color: #2078ca;
+}
+.SignsPlus {
+    color: #339DFF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #046ac9;
+    padding: 63px 30px;
+    font-size: 35px;
+}
+.SignsPlus:hover {
+    color: #6bc0f8;
+    background-color: #2078ca;
+}
+.SignsEquals {
+    color: #339DFF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #046ac9;
+    padding: 18px 30px;
+    font-size: 35px;
+}
+.SignsEquals:hover {
+    color: #6bc0f8;
+    background-color: #2078ca;
+}
+.zero {
+    color: #29A8FF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #303136;
+    padding: 18px 77px;
+    font-size: 35px;
+}
+.zero:hover {
+    color: #6bc0f8;
+    background-color: #393a41;
+}
+.backspace {
+    background-image: url('../../../assets/icon/backspace1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #616161;
+    padding: 38px 40px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.backspace:hover {
+    background-color: #6b6b6b;
 }

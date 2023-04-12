@@ -24,7 +24,7 @@ function MyButton ({children, ...props}) {
 
   return (
     <div>
-        <button className={classes.ButtonNumbers} onClick={() => setButtonClicked(true)}>
+        <button className={props.class ? props.class.toString() : ""} onClick={() => setButtonClicked(true)}>
           {children}
         </button>
     </div>
