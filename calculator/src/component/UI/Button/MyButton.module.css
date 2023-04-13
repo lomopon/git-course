@@ -5,6 +5,7 @@
     background-color: #303136;
     padding: 18px 30px;
     font-size: 35px;
+    border: none;
 }
 .ButtonNumbers:hover {
     color: #6bc0f8;
@@ -17,6 +18,7 @@
     background-color: #303136;
     padding: 18px 35px;
     font-size: 35px;
+    border: none;
 }
 .Dot:hover {
     color: #6bc0f8;
@@ -29,8 +31,35 @@
     background-color: #046ac9;
     padding: 18px 34px;
     font-size: 35px;
+    border: none;
 }
 .Signs:hover {
+    color: #6bc0f8;
+    background-color: #2078ca;
+}
+.SignsDivide {
+    color: #339DFF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #046ac9;
+    padding: 18px 35px;
+    font-size: 35px;
+    border: none;
+}
+.SignsDivide:hover {
+    color: #6bc0f8;
+    background-color: #2078ca;
+}
+.SignsMultiply {
+    color: #339DFF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #046ac9;
+    padding: 18px 33px;
+    font-size: 35px;
+    border: none;
+}
+.SignsMultiply:hover {
     color: #6bc0f8;
     background-color: #2078ca;
 }
@@ -39,8 +68,9 @@
     border-radius: 15px;
     margin: 5px;
     background-color: #046ac9;
-    padding: 63px 30px;
+    padding: 39.5px 30px;
     font-size: 35px;
+    border: none;
 }
 .SignsPlus:hover {
     color: #6bc0f8;
@@ -51,8 +81,9 @@
     border-radius: 15px;
     margin: 5px;
     background-color: #046ac9;
-    padding: 18px 30px;
+    padding: 39.5px 30px;
     font-size: 35px;
+    border: none;
 }
 .SignsEquals:hover {
     color: #6bc0f8;
@@ -63,8 +94,9 @@
     border-radius: 15px;
     margin: 5px;
     background-color: #303136;
-    padding: 18px 77px;
+    padding: 18px 74.9px;
     font-size: 35px;
+    border: none;
 }
 .zero:hover {
     color: #6bc0f8;
@@ -78,6 +110,7 @@
     padding: 38px 40px;
     border-radius: 15px;
     margin: 5px;
+    border: none;
 }
 .backspace:hover {
     background-color: #6b6b6b;

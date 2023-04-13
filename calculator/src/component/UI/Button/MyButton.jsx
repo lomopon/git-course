@@ -12,6 +12,9 @@ function MyButton ({children, ...props}) {
       if (event.key === props.myValue.toString()) {
         console.log('нажалась'+ props.myValue.toString())
         setButtonClicked(true);
+      } else if (event.key === props.myValuetwo.toString()) {
+        console.log('нажалась'+ props.myValuetwo.toString())
+        setButtonClicked(true);
       }
     }
 
