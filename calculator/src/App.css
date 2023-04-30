@@ -22,7 +22,9 @@
   color: #339DFF;
   border-radius: 15px;
   margin: 5px;
+  width: 350px;
   background-color: #046ac9;
   font-size: 35px;
   border: none;
+  text-align: right;
 }

@@ -1,0 +1,40 @@
+import React, { useEffect, useState } from "react";
+import classes from './MyButton.module.css'
+
+
+function MyButton ({children, ...props}) {
+    function Click(props) {
+      props.title(children) 
+      setButtonClicked(true)
+    }
+    const [buttonClicked, setButtonClicked] = useState(false);
+
+  useEffect(() => {
+    
+    function handleKeyDown(event) {
+      if (event.key === props.myValue.toString()) { 
+        console.log('нажалась'+ props.myValue.toString())
+        Click(props);
+      } else if (event.key === props.myValuetwo.toString()) {
+        console.log('нажалась'+ props.myValuetwo.toString())
+        Click(props);
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
+  return (
+    <div>
+        <button onClick={() => Click(props)} className={props.class ? props.class.toString() : ""} >
+          {children}
+        </button>
+    </div>
+    )
+}
+
+export default MyButton

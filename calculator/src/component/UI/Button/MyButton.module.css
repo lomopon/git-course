@@ -115,3 +115,42 @@
 .backspace:hover {
     background-color: #6b6b6b;
 }
+.AllClear {
+    color: #A5A5A5;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #616161;
+    padding: 18px 15.4px;
+    font-size: 35px;
+    border: none;
+}
+.AllClear:hover {
+    color: #cecdcd;
+    background-color: #8f8e8e;
+}
+.SignsBracket {
+    color: #29A8FF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #303136;
+    padding: 7px 58px;
+    font-size: 25px;
+    border: none;
+}
+.SignsBracket:hover {
+    color: #6bc0f8;
+    background-color: #393a41;
+}
+.SignsPercent {
+    color: #29A8FF;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #303136;
+    padding: 7px 28.5px;
+    font-size: 25px;
+    border: none;
+}
+.SignsPercent:hover {
+    color: #6bc0f8;
+    background-color: #393a41;
+}
